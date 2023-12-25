@@ -22,6 +22,10 @@ export const AgentToolList: core.serialization.ObjectSchema<serializers.AgentToo
 
 
 
+
+
+
+
 export declare namespace AgentToolList {
     interface Raw {
         success: boolean;
