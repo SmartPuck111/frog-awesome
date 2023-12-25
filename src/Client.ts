@@ -33,6 +33,8 @@ export class SuperAgentClient {
         return (this._agent ??= new Agent(this._options));
     }
 
+    //I fix this
+
     protected _llm: Llm | undefined;
 
     public get llm(): Llm {
