@@ -13,7 +13,7 @@ export const AgentToolList: core.serialization.ObjectSchema<serializers.AgentToo
             .list(core.serialization.lazyObject(async () => (await import("..")).PrismaModelsAgentTool))
             .optional(),
     });
-
+//also this is fixed
 export declare namespace AgentToolList {
     interface Raw {
         success: boolean;
